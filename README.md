@@ -9,3 +9,7 @@ Some combinations of dropdowns have no data. We have those combinations in the C
 ### Data
 
 The data are posted at: https://doi.org/10.7910/DVN/LIIBNB
+
+### English Translations
+
+You can get English translations using [Table Translator](https://github.com/in-rolls/table_word_level_translator).
