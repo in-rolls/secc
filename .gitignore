@@ -1,4 +1,3 @@
 .ipynb_checkpoints/
-data/
-*.ipynb
+past_data/
 past_scripts/

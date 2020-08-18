@@ -12,15 +12,15 @@ The data has the following columns:
 
 1. Scraping: We used [secc.py](secc.py) to scrape the data
 
-2. Cleaning: The data we downloaded had over 420M rows, which is clearly too many. We compare it to the [aggregate data provided online](scripts/).  We found two broad reasons for it: empty rows and duplicated rows. Some combinations of dropdowns have no data. In the initial data we downloaded we kept those combinations but put an empty string in all other fields starting `head_of_hh.`
+2. Cleaning: The data we downloaded had over 420M rows, which is clearly too many. We compare it to the [aggregate data provided online](scripts/00_compare_secc_website.ipynb).  We found two broad reasons for it: empty rows and duplicated rows. Some combinations of dropdowns have no data. In the initial data we downloaded we kept those combinations but put an empty string in all other fields starting `head_of_hh.`
 
-[](figs/empty_rows.png)
+[](screenshots/missing.png)
 
 We remove those rows.
 
-There also a lot of duplicates.
+There also a lot of duplicates. The duplicates stem from multiple entries for the `auto_inclusion_deprivation_or_exclusion_or_other` field per row and for village name to have multiple rows with "(GP)" and "(village)".
 
-[](figs/empty_rows.png)
+[](screenshots/duplicates.png)
 
 The [following notebook](scripts/final_data_comp.ipynb) compares the final data to aggregate numbers posted.
 
