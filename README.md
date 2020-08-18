@@ -2,6 +2,16 @@
 
 We share data on 137M+ households from 19 states which were part of the 2011 SECC.
 
+-------
+Table of Contents:
+
+1. [Scraping](#scraping)
+2. [Cleaning](#cleaning)
+3. [Augmenting](#augmenting)
+4. [Data](#data)
+5. [Applications](#applications)
+------------
+
 ### Scraping
 
 We used [secc.py](secc.py) to scrape the data from http://164.100.129.6/netnrega/secc_list.aspx. In all, we have data XXXM records from 19 states.
