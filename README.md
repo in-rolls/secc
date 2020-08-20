@@ -1,6 +1,6 @@
 ## Socio-Economic Caste Census 2011
 
-We share data on 137M+ households from 19 states which were part of the 2011 SECC.
+We share data on 140M+ households from 19 states which were part of the 2011 SECC.
 
 -------
 Table of Contents:
@@ -14,11 +14,11 @@ Table of Contents:
 
 ### Scraping
 
-We used [secc.py](secc.py) to scrape the data from http://164.100.129.6/netnrega/secc_list.aspx. In all, we have data XXXM records from 19 states.
+We used [secc.py](secc.py) to scrape the data from http://164.100.129.6/netnrega/secc_list.aspx. In all, we have data over 420M records from 19 states.
 
 ### Cleaning
 
-The data we downloaded had over 420M rows, which is clearly too many. We compare it to the [aggregate data provided online](scripts/00_compare_secc_website.ipynb).  We found two broad reasons for it: empty rows and duplicated rows. Some combinations of dropdowns have no data. In the initial data we downloaded we kept those combinations but put an empty string in all other fields starting `head_of_hh.`
+The data we downloaded had over 420M rows, which is clearly too many. We compare it to the [aggregate data provided online](scripts/02_compare_secc_website.ipynb).  We found two broad reasons for it: empty rows and duplicated rows. Some combinations of dropdowns have no data. In the initial data we downloaded we kept those combinations but put an empty string in all other fields starting `head_of_hh.`
 
 ![](screenshots/missing.png)
 
