@@ -24,7 +24,7 @@ The data we downloaded had over 420M rows, which is clearly too many. To clean t
 
 There also a lot of duplicates. The duplicates stem from multiple entries for the `auto_inclusion_deprivation_or_exclusion_or_other` field per row and for village name to have multiple rows with "(GP)" and "(village)". We keep the village duplicates as they are about ~ 3M and it is not immediately clear if it is duplication or that they are different villages.
 
-[](screenshots/duplicates.png)
+![](screenshots/duplicates.png)
 
 We take care of these issues in [this notebook](scripts/03_clean.ipynb). We compare this with [SQL results](scripts/04_test_clean_db.ipynb) as a robustness check. And the [following notebook](scripts/05_compare_secc_clean.ipynb) compares the final data to aggregate numbers posted. There are still differences but now we have fewer rows than excess rows. Finally, we [upload the deduped data](scripts/06_upload_dataverse.ipynb) to the Dataverse. (The file names have the word 'deduped' in them.)
 
