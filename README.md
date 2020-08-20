@@ -6,10 +6,9 @@ We share data on 140M+ households from 19 states which were part of the 2011 SEC
 Table of Contents:
 
 1. [Scraping](#scraping)
-2. [Cleaning](#cleaning)
-3. [Augmenting](#augmenting)
-4. [Data](#data)
-5. [Applications](#applications)
+2. [De-Duping and Removing Empty Rows](#de-duping-and-removing-empty-rows)
+3. [Data](#data)
+4. [Applications](#applications)
 ------------
 
 ### Scraping
