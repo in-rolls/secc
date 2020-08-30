@@ -37,7 +37,7 @@ The original and deduped data are posted at: https://doi.org/10.7910/DVN/LIIBNB
 
 ### Applications
 
-We use the data to develop the python package [outkast](https://github.com/appeler/outkast) that infers the caste based on last name. We also use the data to provide [sex ratio over time by last name](https://github.com/soodoku/last_sex)
+We use the data to develop the python package [outkast](https://github.com/appeler/outkast) that infers the caste based on last name. We also use the data to estimate [percentage of female HoH by last name](https://github.com/soodoku/female_hoh)
 
 ### Authors
 
