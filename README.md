@@ -1,5 +1,7 @@
 ## Socio-Economic Caste Census 2011
 
+### 🚫 This repository has been archived. The code was written to scrape data at a point in time.
+
 We share data on 140M+ households from 19 states which were part of the 2011 SECC.
 
 -------
